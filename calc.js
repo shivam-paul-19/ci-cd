@@ -22,5 +22,5 @@ export const divide = (a, b) => {
     if(b == 0) return "not defined";
     a = changeToNum(a);
     b = changeToNum(b);
-    return a - b;
+    return a / b;
 };
