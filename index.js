@@ -7,6 +7,11 @@ app.listen("8080", (req, res) => {
     console.log("listening");
 });
 
+// a sample route to test the workflow
+app.get("/test", (req, res) => {
+    res.send("it is working");
+});
+
 app.get("/sum/:a/:b", (req, res) => {
     let {a, b} = req.params;
     res.send(`Here it is: ${sum(a, b)}`);
