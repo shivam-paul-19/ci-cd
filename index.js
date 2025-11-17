@@ -9,7 +9,7 @@ app.listen("8080", (req, res) => {
 
 // a sample route to test the workflow
 app.get("/test", (req, res) => {
-    res.send("The error deployed");
+    res.send("The new message");
 });
 
 app.get("/sum/:a/:b", (req, res) => {

@@ -15,7 +15,7 @@ export const subtract = (a, b) => {
 export const multiply = (a, b) => {
     a = changeToNum(a);
     b = changeToNum(b);
-    return a + b;
+    return a * b;
 };
 
 export const divide = (a, b) => {
